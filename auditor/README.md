@@ -14,3 +14,4 @@ Ceux-ci peuvent lancer des commandes et inspecter les containers pour obtenir be
 
   Liste les overlays presents dans /var/lib/docker/overlays2 et cherche les orphelins non rattachés à un container
 
+Vous pouvez automatiser les outils lancés en changeant l'entrypoint, et ainsi faire un devel full automatique !
