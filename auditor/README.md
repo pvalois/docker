@@ -8,9 +8,9 @@ Ceux-ci peuvent lancer des commandes et inspecter les containers pour obtenir be
 
 * get_containers_date.py
 
-  Exécute la commande date sur tous les containers pour vérifier que tous es ok
+  Exécute la commande "date" sur tous les containers pour vérifier que tous es ok
 
 * orphaned_overlays.py
 
-  Liste les overlays présentw dans /var/lib/docker/overlays2 et cherche les orphelins non rattachés à un container
+  Liste les overlays presents dans /var/lib/docker/overlays2 et cherche les orphelins non rattachés à un container
 
