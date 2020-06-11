@@ -1,7 +1,7 @@
 Usage : 
 
-docker build . -t auditor
-docker run d -rm -v /var/run/docker.sock:/var/run/docker.sock -v /var/lib/docker:/var/lib/docker:ro auditor 
+  docker build . -t auditor
+  docker run d -rm -v /var/run/docker.sock:/var/run/docker.sock -v /var/lib/docker:/var/lib/docker:ro auditor 
 
 Vous pouvez ensuite ouvrir un shell dans ce container et utiliser les outils python dans /root.
 Ceux-ci peuvent lancer des commandes et inspecter les containers pour obtenir beaucoup d'infos. 
